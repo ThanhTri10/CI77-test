@@ -1,0 +1,29 @@
+.header{
+
+    top: 8px;
+}
+
+.header ul{
+
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.header li{
+    padding: 30px;
+}
+
+.active-item{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.inactive-item{
+    text-decoration: none;
+    color: black;
+}
